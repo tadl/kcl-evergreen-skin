@@ -5,11 +5,11 @@
     <a href="[% mkurl(ctx.opac_root _ '/register') %]">[% 
         l('Request Library Card') %]</a> &nbsp;|&nbsp;
     [% ELSE %]
-    <a href="http://example.com">[% l('Bottom Link 2') %]</a> &nbsp;|&nbsp;
+    <a href="http://www.kalkaskalibrary.org/">[% l('Homepage') %]</a> &nbsp;|&nbsp;
     [% END %]
-    <a href="http://example.com">[% l('Bottom Link 3') %]</a> &nbsp;|&nbsp;
-    <a href="http://example.com">[% l('Bottom Link 4') %]</a> &nbsp;|&nbsp;
-    <a href="http://example.com">[% l('Bottom Link 5') %]</a>
+    <a href="http://history.kalkaskalibrary.org/">[% l('Newspaper Archives') %]</a> &nbsp;|&nbsp;
+    <a href="http://elibrary.mel.org/">[% l('MeLCat') %]</a><!-- &nbsp;|&nbsp;
+    <a href="http://example.com">[% l('Bottom Link 5') %]</a> -->
     [% IF ctx.timing %]
     <div id="timing">
         [% FOR event IN ctx.timing %]

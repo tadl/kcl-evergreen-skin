@@ -1,16 +1,10 @@
 <div class="login-help-box">
 
-    <div class="login-help-button">
-        <a href="http://example.com" class="opac-button">[% l('Questions?') %]</a>
-    </div>
-
-    <div>
-        [% l('Visit our FAQs section for answers to common questions about how to use your account.') %]
-    </div>
+    <h1>[% l('Trouble logging in?') %]</h1>
 
     <div class="login-help-button">
         <div class="opac-multiline-button">
-        <a href="http://example.com">[% l('FAQs') %]</a>
+        <a href="/eg/opac/password_reset">[% l('Reset Password') %]</a>
 	</div>
     </div>
 

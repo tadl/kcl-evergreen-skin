@@ -1,4 +1,4 @@
-<div id="gold-links-holder">
+<!-- <div id="gold-links-holder">
     <div id="gold-links">
         <div id="header-links">
             <a href="http://example.com">[% l('Link 1') %]</a>
@@ -8,4 +8,4 @@
             <a href="http://example.com">[% l('Link 5') %]</a>
         </div>
     </div>
-</div>
+</div> -->

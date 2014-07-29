@@ -34,3 +34,81 @@
 .selector_actions_for_list_inner_option { margin-left: 2em; } /* XXX ".opac-auto-179 optgroup option" doesn't work!? */
 #cn_browse_div > div { width: 90%; text-align: center; margin: 10px; }
 #cn_browse { width: 95%; text-align: center; padding: 15px; }
+
+/* kcl customizations */
+#topnav_logo img { height:85px; }
+
+body { background-color: #40a269; }
+
+#footer-wrap { background-image: -webkit-linear-gradient(top, rgb(0,122,84), rgb(64,162,105)); }
+
+/* search box stuff */
+#search_box { font-size:1.6em; }
+.search_box_wrapper { position:relative; }
+.dijitTextBox { width: 70% !important; margin:5px auto; font-size:1.6em; line-height:1.4em; height:1.8em; }
+.tundra .dijitTextBox { margin:5px auto; }
+#search-submit-go { width: 100px; height:28px; }
+#search-wrapper select {
+  font-size:16px;
+  height:1.6em;
+  line-height:18px;
+}
+#searchbar-and-button {
+  width:80% !important;
+  margin:0 auto;
+  clear:both;
+}
+#search-selectors {
+  width:80% !important;
+  margin:0 auto;
+  clear:both;
+}
+
+/* search results stuff */
+.result_table_pic {
+  width: 100px;
+}
+
+/* login page stuff */
+.login-help-box {
+    float:left;
+    padding: 15px;
+    margin:15px auto;
+    width:30%;
+}
+#login-form-box {
+    float:left;
+    padding: 15px;
+    width: 60%;
+    margin:15px auto;
+}
+.login-help-button {
+    width:150px;
+    margin:auto;
+    padding: 1em;
+}
+
+@media only screen and (max-width: 600px) {
+    #topnav_logo img {
+        width:auto;
+    }
+    .login-help-box,
+    #login-form-box {
+        float:none;
+        width:70%;
+    }
+    #searchbar-and-buttons,
+    #search-selectors {
+        width:90% !important;
+    }
+}
+
+@media only screen and (max-width: 800px) {
+    #login-form-box {
+        width: 50%;
+    }
+    #searchbar-and-buttons,
+    #search-selectors {
+        width:90% !important;
+    }
+}
