@@ -21,11 +21,13 @@
     <div id="copyright_text" style="margin-top: 2em;">
         [% l('Copyright &copy; 2006-[_1] Georgia Public Library Service, and others', date.format(date.now, '%Y')) %]
     </div>
-    <div id="footer_logo">
-        [% l('Powered by') %]
+    <div id="footer_logo" style="clear:both;">
+        <div style="float:left;padding:2px 8px 0 0;">
+            [% l('Powered by ') %]
+        </div>
         <a href="http://evergreen-ils.org">
             <img src="[% ctx.media_prefix %]/opac/images/eg_tiny_logo.png"
-                style="border:none; width: 94px; height: 16px;"
+                style="border:none; width: 94px; height: 17px; vertical-align: top;"
                 alt="[% l('Evergreen') %]"
             />
         </a>
