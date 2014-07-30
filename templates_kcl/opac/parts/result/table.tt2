@@ -37,8 +37,8 @@
                     -%]
                         <tr class="result_table_row">
                                             <td class="results_row_count" name="results_row_count">[%
-                                                    result_count; result_count = result_count + 1
-                                                %].</td>
+                                                    #result_count; result_count = result_count + 1
+                                                %]</td>
                                             <td class='result_table_pic_header'>
                                                 <a href="[% mkurl(ctx.opac_root _ '/record/' _ rec.id) %]"><img alt="[% l('Image of item') %]"
                                                         name='item_jacket' class='result_table_pic' 

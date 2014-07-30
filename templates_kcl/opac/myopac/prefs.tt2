@@ -142,8 +142,10 @@
             </tr>
         </tbody>
     </table><br />
+    [% INCLUDE "opac/parts/myopac/prefs_hints.tt2" %]
     <hr class='opac-auto-013' color="#DCDBDB" />
     <br />
+
 
     <table width='100%' class='light_border data_grid'>
         <thead>
