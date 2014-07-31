@@ -44,7 +44,10 @@
 
 body { background-color: #40a269; }
 
-#footer-wrap { background-image: -webkit-linear-gradient(top, rgb(0,122,84), rgb(64,162,105)); -linear-gradient(top, rgb(64,162,105), rgb(0,122,84)) ;  }
+#footer-wrap { 
+    background-image: -webkit-linear-gradient(top, rgb(0,122,84), rgb(64,162,105));
+    background: linear-gradient(to bottom, rgb(0,122,84), rgb(64,162,105));
+}
 
 /* search box stuff */
 #search_box { font-size:1.6em; }
@@ -112,6 +115,22 @@ body { background-color: #40a269; }
 }
 
 /* pagination stuff */
+.results-paginator-selected,
+.start_end_links_span a {
+    padding: 6px;
+    border: 1px solid grey;
+    border-radius: 5px;
+    line-height:2em;
+    text-decoration: none;
+
+}
+.results-paginator-list {
+    padding-left: 5px;
+}
+.start_end_links_span a:hover {
+    background: rgb(0,122,84);
+    color: #fff;
+}
 
 
 @media only screen and (max-width: 600px) {
