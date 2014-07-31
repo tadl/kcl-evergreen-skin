@@ -47,11 +47,12 @@
                 INCLUDE "opac/parts/filter_group_selector.tt2"
                     filter_group=search.basic_config.group none_ok=1 none_label=search.basic_config.none_label;
             END;
-        -%]
+        -%]<!-- // This is removed for KCL
         [%- 
             select_lib_label = l("Select search library");
             INCLUDE build_org_selector arialabel=select_lib_label show_loc_groups=1
-        -%]
+        -%] -->
+        <input type="hidden" value="25" name="locg" />
     </div>
     [% IF ctx.bookbag %]
     <div id="search-only-bookbag-container">
