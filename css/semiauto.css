@@ -131,6 +131,9 @@ body { background-color: #40a269; }
     background: rgb(0,122,84);
     color: #fff;
 }
+.search_page_nav_link {
+    font-weight:bold;
+}
 
 
 @media only screen and (max-width: 600px) {
