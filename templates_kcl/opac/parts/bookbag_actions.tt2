@@ -35,9 +35,8 @@
     }, stop_parms));
 %]
 <ul class="popmenu">
-    <li><a href="#" class="no-dec">
-          <img src="[% ctx.media_prefix %]/images/clipboard.png" alt="" />
-          [% l("Add to my list") %]
+    <li><a href="#" class="opac-button nopad no-dec">
+          [% l("Add to list") %]
         </a>
     <ul>
     <li class="[% tclass %]">

@@ -1,6 +1,6 @@
 [% BLOCK results_count_header %]
 <div class="results_header_nav1">
-    <span class="h1">[% ctx.bookbag ? l('List Contents') : l('Search Results') %]</span>
+<!--    <span class="h1">[% ctx.bookbag ? l('List Contents') : l('Search Results') %]</span> -->
     <span nowrap="nowrap" class="result_number">
                 [%~ |l('<span class="result_count_number">' _ ctx.result_start _'</span>',
                 '<span class="result_count_number">' _ ctx.result_stop _ '</span>',
@@ -14,7 +14,7 @@
                     [%~ END %]
                 </span>
     </span>
-    [%- INCLUDE "opac/parts/pref_lib_display.tt2" %]
+    [%-# INCLUDE "opac/parts/pref_lib_display.tt2" %]
     <span>
                 <span class='start_end_links_span'>
 

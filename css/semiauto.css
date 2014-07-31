@@ -138,6 +138,11 @@ body { background-color: #40a269; }
     font-weight:bold;
 }
 
+/* action box stuff */
+.opac-button.nopad {
+    margin-bottom:0;
+}
+
 
 @media only screen and (max-width: 600px) {
     #topnav_logo img {
