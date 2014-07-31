@@ -41,6 +41,9 @@
 #header-wrap { background:#40a269; background-color: #40a269; }
 .opac-button-header { background: #007a54; }
 .facet_box_temp .header { background: #40a269; }
+#dash_identity {
+    margin-top:2em;
+}
 
 body { background-color: #40a269; }
 
