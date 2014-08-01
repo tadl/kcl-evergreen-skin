@@ -143,6 +143,23 @@ body { background-color: #40a269; }
     margin-bottom:0;
 }
 
+/* bookbag stuff */
+.bookbag-controls-buttons {
+    float:right;
+    width:65%;
+}
+.bookbag-share {
+    padding:0;
+}
+.bookbag-controls {
+    padding: 0 0 0 2px;
+}
+.bookbag-controls.most {
+    width:35%;
+}
+.bookbag-controls-holder .most {
+    margin:0;
+}
 
 @media only screen and (max-width: 600px) {
     #topnav_logo img {
