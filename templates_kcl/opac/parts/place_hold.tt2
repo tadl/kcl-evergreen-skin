@@ -43,7 +43,12 @@
             <tr>
                 <td>
                     <input type="hidden" name="hold_target" value="[% hdata.target.id | html %]" />
-                    <div class='hold-items-list-title'>[% attrs.title_extended | html %]</div>
+                    <div class='hold-items-list-title'>
+                        <img alt="[% l('Image of item') %]" 
+                        name='item_jacket' class='result_table_pic' style='float:left;' 
+                        src='[% ctx.media_prefix %]/opac/extras/ac/jacket/medium/r/[% rec.id | uri %]' />
+                        [% attrs.title_extended | html %]
+                    </div>
                     [% IF hdata.parts %]
                         [% IF hdata.parts.size > 0 %]
                         <div style='padding-left: 10px'>

@@ -64,7 +64,7 @@
         content = PROCESS render_subject(xpath=subj.xpath);
         IF content.match('\S');
 %]
-        <table class='rdetail_subject'>
+        <table class='rdetail_subject' style='float:left;'>
             <tbody>
                 <tr>
                     <td class='rdetail_subject_type'>[% subj.label %]</td>
