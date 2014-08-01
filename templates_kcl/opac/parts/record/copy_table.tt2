@@ -38,7 +38,9 @@ END;
             [%- IF has_parts == 'true' %]
             <th id='copy_header_part'>[% l("Part") %]</th>
             [%- END %]
+            [%- IF ctx.is_staff %]
             <th id='copy_header_barcode'>[% l("Barcode") %]</th>
+            [%- END %]
             <th id='copy_header_shelfloc'>[% l("Shelving Location") %]</th>
             [%- IF ctx.is_staff %]
             <th id='copy_header_age_hold'>[% l("Age Hold Protection") %]</th>
@@ -66,7 +68,9 @@ END;
         </li></ul>
     </td>
     <td headers='copy_header_callnumber'>[% bib.target_copy.call_number.label | html %]</td>
+    [%- IF ctx.is_staff %]
     <td headers='copy_header_barcode'>[% bib.target_copy.barcode | html %]</td>
+    [%- END %]
     <td headers='copy_header_shelfloc'>[% copy_info.copy_location | html %]</td>
     <td headers='copy_header_status'>[% copy_info.copy_status | html %]</td>
     <td headers='copy_header_due_date'>[% copy_info.due_date | html %]</td>
@@ -108,15 +112,14 @@ END; # FOREACH bib
             [%- IF has_parts == 'true' %]
             <td headers='copy_header_part'>[% copy_info.part_label | html %]</td>
             [%- END %]
+            [%- IF ctx.is_staff -%]
             <td headers='copy_header_barcode' property="serialNumber">
-                [%- IF ctx.is_staff -%]
                     <a href="javascript:void(0)" onclick="xulG.new_tab(xulG.urls.XUL_COPY_STATUS, {}, {'from_item_details_new': true, 'barcodes': ['[%- copy_info.barcode | html | replace('\'', '\\\'') -%]']})">[% copy_info.barcode | html %]</a>
-                [%- ELSE -%][% copy_info.barcode | html %]
-                [%- END -%]
                 [%- IF attrs.gtin13;
                     '<meta property="gtin13" content="' _ attrs.gtin13 _ '" />';
                 END; -%]
             </td>
+            [%- END -%]
             <td headers='copy_header_shelfloc' property="availableAtOrFrom">[% copy_info.copy_location | html %]</td>
             [%- IF ctx.is_staff %]
             <td headers='copy_header_age_hold'>
