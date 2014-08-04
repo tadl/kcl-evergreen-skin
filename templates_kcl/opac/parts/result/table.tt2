@@ -299,9 +299,8 @@ END;
                                                         <div class="results_aux_utils place_hold"><a
                                                                 href="[% mkurl(ctx.opac_root _ '/place_hold',
                                                                     {hold_target => rec.id, hold_type => 'T', hold_source_page => mkurl()}, ['query']) %]"
-                                                                    name="place_hold_link" class="no-dec"><img
-                                                                src="[% ctx.media_prefix %]/images/green_check.png"
-                                                                alt=""/><span class="result_place_hold">[% l('Place Hold') %]</span></a>
+                                                                    name="place_hold_link" class="no-dec opac-button">
+                                                                <span class="result_place_hold">[% l('Place Hold') %]</span></a>
                                                         </div>
 [%- END -%]
                                                         <div class="results_aux_utils result_util">
@@ -310,12 +309,11 @@ END;
                                                             %]
                                                             [%  ELSE;
                                                                 operation = ctx.mylist.grep(rec.id).size ? "delete" : "add";
-                                                                label = (operation == "add") ? l("Add to my list") : l("Remove from my list");
+                                                                label = (operation == "add") ? l("Add to list") : l("Remove from list");
                                                                 href = mkurl(ctx.opac_root _ '/mylist/' _ operation, 
                                                                         {record => rec.id, anchor => 'record_' _ rec.id}, 1);
                                                             %]      
-                                                            <a href="[% href %]" class="no-dec">
-                                                                <img src="[% ctx.media_prefix %]/images/clipboard.png" alt="" />
+                                                            <a href="[% href %]" class="no-dec opac-button">
                                                                 [% label %]
                                                             </a>
                                                             [% END %]
