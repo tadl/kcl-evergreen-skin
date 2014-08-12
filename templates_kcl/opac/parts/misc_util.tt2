@@ -225,10 +225,15 @@
         END;
         args.content = (args.contents.size) ? args.contents.0 : '';
 
-        # Maintain contents_list in case any custom use was made of it
-        args.contents_list = [];
-        FOR sub IN xml.findnodes('//*[@tag="505"]');
-            args.contents_list.push(sub.textContent);
+        args.contents = [];
+        FOR tag IN xml.findnodes('//*[@tag="505"]');
+            this_contents = [];
+            FOR sub IN tag.childNodes;
+                subcode = sub.getAttribute("code");
+                subtext = sub.textContent;
+                this_contents.push(subtext);
+            END;
+            args.contents.push(this_contents.join(" "));
         END;
 
         # MARC Callnumber
