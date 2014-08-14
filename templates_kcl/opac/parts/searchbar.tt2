@@ -52,7 +52,7 @@
             select_lib_label = l("Select search library");
             INCLUDE build_org_selector arialabel=select_lib_label show_loc_groups=1
         -%] -->
-        <input type="hidden" value="25" name="locg" />
+        <input type="hidden" value="44" name="locg" />
     </div>
     [% IF ctx.bookbag %]
     <div id="search-only-bookbag-container">
