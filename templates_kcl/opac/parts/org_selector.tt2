@@ -44,6 +44,9 @@ BLOCK build_org_selector;
             # org and all children are invisible.
             NEXT IF !visible AND inherited_vis AND !ctx.is_staff;
 
+            SET org_whitelist = [1,43,44];
+            NEXT UNLESS org_whitelist.grep('^' _ ou_id _ '$').size;
+
             IF !loc_grp; # processing an org unit
 
                 top_loc_groups = [];
