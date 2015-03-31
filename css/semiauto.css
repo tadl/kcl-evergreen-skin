@@ -65,6 +65,7 @@ body.ys {
 
 #header.ys {
     background: rgba(12,14,18,0.2);
+    width:100%;
 }
 
 #header-wrap.ys {
