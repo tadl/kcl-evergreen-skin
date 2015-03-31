@@ -77,6 +77,16 @@ body.ys {
    border-top-right-radius:10px;
 }
 
+.home #search-wrapper.ys {
+    background-image: url(/images/kcl/greenblue.png) !important;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-position: 50% 50%9 !important;
+    background-size: cover;
+    border: none;
+    min-height:400px;
+}
+
 div#rdetail_actions_div.ys {
    -webkit-border-bottom-left-radius:10px;
    -moz-border-bottom-left-radius:10px;
