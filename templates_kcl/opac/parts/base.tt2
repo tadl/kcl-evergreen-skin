@@ -21,6 +21,8 @@
         [% INCLUDE 'opac/parts/goog_analytics.tt2' %]
     </head>
     <body [% IF want_dojo; ' class="tundra ' _ ctx.page _ '"'; %]
+    [% ELSIF ctx.physical_dept == 'ys' AND want_dojo; ' class="tundra ys ' _ ctx.page _ '"'; %]
+    [% ELSIF ctx.physical_dept == 'ys'; ' class="ys ' _ ctx.page _ '"'; %]
     [% ELSE %]
     class="[% ctx.page %]"
     [% END %]>
