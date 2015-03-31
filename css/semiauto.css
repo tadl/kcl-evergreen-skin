@@ -101,6 +101,10 @@ div#rdetail_actions_div.ys {
    border-top-left-radius:10px;
 }
 
+#footer-wrap.ys {
+    background: rgba(240,242,245,0.5);
+}
+
 #rdetails_status.ys thead th {
     background: rgba(255,119,0,0.5);
 }

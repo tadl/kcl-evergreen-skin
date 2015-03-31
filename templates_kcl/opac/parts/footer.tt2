@@ -1,4 +1,4 @@
-<div id="footer-wrap">
+<div id="footer-wrap"[% IF ctx.physical_dept == 'ys'; ' class="ys"'; END %]>
 <div id="footer">
     [% IF ctx.get_org_setting(
         ctx.physical_loc || ctx.aou_tree.id, 'opac.allow_pending_user') %]
