@@ -62,8 +62,7 @@ body.ys {
     background-size: cover;
     border: none;
 }
-#header.ys,
-#header-wrap.ys {
+#header.ys {
     background: rgba(240,242,245,0.2);
 }
 #search-wrapper #search-box.ys {
