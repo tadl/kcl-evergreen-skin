@@ -63,7 +63,7 @@ body.ys {
     border: none;
 }
 
-#header.ys {
+#header-wrap.ys {
     background: rgba(240,242,245,0.5);
     -webkit-border-bottom-left-radius:10px;
     -moz-border-bottom-left-radius:10px;
