@@ -63,11 +63,11 @@ body.ys {
     border: none;
 }
 
-#header.ys {
+#header-wrap.ys {
     background: rgba(12,14,18,0.4);
 }
 
-#header-wrap.ys {
+#header.ys {
     background:none;
 }
 #search-wrapper #search-box.ys {
