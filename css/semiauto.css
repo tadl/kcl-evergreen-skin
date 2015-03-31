@@ -64,7 +64,7 @@ body.ys {
 }
 #header.ys,
 #header-wrap.ys {
-    background: rgba(240,242,245,0.9);
+    background: rgba(240,242,245,0.2);
 }
 #search-wrapper #search-box.ys {
    background: rgba(240,242,245,0.5);
