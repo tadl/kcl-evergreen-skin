@@ -64,18 +64,18 @@ body.ys {
 }
 
 #header-wrap.ys {
-    background: rgba(12,14,18,0.4);
+    background: rgba(0,0,0,0.4);
 }
 
 #header.ys {
     background:none;
 }
 #search-wrapper #search-box.ys {
-   background: rgba(240,242,245,0.5);
+   background: rgba(255,255,255,0.6);
 }
 
 .home #search-wrapper.ys {
-    background: rgba(240,242,245,0.5);
+    background: rgba(255,255,255,0.6);
     border: none;
     min-height:400px;
 }
@@ -90,7 +90,7 @@ div#rdetail_actions_div.ys {
 }
 
 #footer-wrap.ys {
-    background: rgba(0,8,16,0.8);
+    background: rgba(0,0,0,0.8);
 }
 
 #rdetails_status.ys thead th {
@@ -102,11 +102,11 @@ div#rdetail_actions_div.ys {
 }
 
 #content-wrapper.ys {
-    background: rgba(240,242,245,0.5);
+    background: rgba(255,255,255,0.5);
 }
 
 #results_header_bar.ys {
-    background: rgba(255,119,0,0.5);
+    background: rgba(255,119,0,0.5); /* actually not this color */
 }
 
 .results_header_lbl.ys {
