@@ -50,6 +50,7 @@ body { background-color: #40a269; }
 #footer-wrap { 
     background-image: -webkit-linear-gradient(top, rgb(0,122,84), rgb(64,162,105));
     background: linear-gradient(to bottom, rgb(0,122,84), rgb(64,162,105));
+    min-height: 220px;
 }
 
 /* youth skin stuff */
@@ -65,6 +66,11 @@ body.ys {
 
 #header-wrap.ys {
     background: rgba(0,0,0,0.4);
+}
+
+#dashboard.ys,
+#dash_identity.ys {
+    background-color: #ff8900;
 }
 
 #header.ys {

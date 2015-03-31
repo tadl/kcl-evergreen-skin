@@ -17,7 +17,7 @@
         </div>
         [% ELSE %]
         <div id="dash_wrapper">
-            <div id="dash_identity">
+            <div id="dash_identity"[% IF ctx.physical_dept == 'ys'; ' class="ys"'; END %]>
                 <span id="dash_user">
                     [%  l('[_1] [_2]', ctx.user.first_given_name, ctx.user.family_name) | html %]
                 </span>
@@ -30,7 +30,7 @@
                     class="opac-button" id="logout_link">[% l('Logout') %]</a>
                 </span>
             </div>
-            <div id="dashboard">
+            <div id="dashboard"[% IF ctx.physical_dept == 'ys'; ' class="ys"'; END %]>
                 <span class="dash-align">
                     <a class="dash-link" href="[% mkurl(ctx.opac_root _ '/myopac/circs')
                         %]"><span id="dash_checked">[% ctx.user_stats.checkouts.total_out
