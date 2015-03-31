@@ -1,10 +1,10 @@
 [% PROCESS "opac/parts/org_selector.tt2" %]
-<div id="search-wrapper">
+<div id="search-wrapper"[% IF ctx.physical_dept == 'ys'; ' class="ys"'; END %]>
     [% UNLESS took_care_of_form -%]
     <form action="[% ctx.opac_root %]/results" method="get">
     [%- END %]
     <!-- 
-    <div id="search-box">
+    <div id="search-box"[% IF ctx.physical_dept == 'ys'; ' class="ys"'; END %]>
         <span class="search_catalog_lbl mobile_hide">[% l('Search the Catalog') %]</span>
         <span class="adv_search_catalog_lbl"><a href="[% mkurl(ctx.opac_root _ '/advanced', {}, general_search_parms.merge(expert_search_parms)) %]"
             id="home_adv_search_link">[% l('Advanced Search') %]</a></span>
