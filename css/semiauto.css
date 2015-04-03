@@ -156,7 +156,7 @@ div#rdetail_actions_div.ys > .toggle_list {
 .rdetail_header.ys {
     background: rgba(255,137,0,0.8);
     border: none;
-    padding: 10px;
+    padding: 10px 10px 10px 0;
 }
 
 
