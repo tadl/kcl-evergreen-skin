@@ -76,7 +76,7 @@ body.ys {
 #header.ys {
     background:none;
 }
-#search-wrapper #search-box.ys {
+#search-wrapper.ys {
    background: rgba(255,255,255,0.6);
 }
 
