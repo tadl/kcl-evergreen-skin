@@ -48,7 +48,7 @@
                                                         src='[% ctx.media_prefix %]/opac/extras/ac/jacket/medium/r/[% rec.id | uri %]' /></a><br />
                                             </td>
                                             <td class='result_table_title_cell' name='result_table_title_cell'>
-                                               <div class="result_metadata"[% IF ctx.physical_dept == 'ys'; ' class="ys"'; END %]>
+                                               <div class="result_metadata[% IF ctx.physical_dept == 'ys'; ' ys'; END %]">
                                                     <abbr class="unapi-id" title='tag:[% ctx.hostname %],[% date.format(date.now, '%Y') %]:biblio-record_entry/[% rec.id %]'></abbr>
                                                     <a class='record_title' name='record_[% rec.id %]' name='item_title'
                                                         href="[% mkurl(ctx.opac_root _ '/record/' _ rec.id) %]"
