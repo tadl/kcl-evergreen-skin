@@ -145,6 +145,12 @@ div#rdetail_actions_div.ys {
     border: none !important;
 }
 
+.facet_box_temp.ys div.header {
+    background: rgba(255,137,0,0.8);
+}
+.facet_box_temp.ys div.box_wrapper {
+    background: rgba(255,255,255,0.6);
+}
 
 
 
