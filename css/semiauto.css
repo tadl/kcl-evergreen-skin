@@ -70,7 +70,7 @@ body.ys {
 
 #dashboard.ys,
 #dash_identity.ys {
-    background-color: #ff8900;
+    background-color: rgba(255,137,0,0.8);
 }
 
 #header.ys {
@@ -118,6 +118,26 @@ div#rdetail_actions_div.ys {
 .results_header_lbl.ys {
     background: none transparent;
 }
+
+.opac-multiline-button > a,
+.results_header_btns a,
+#simple-detail-view-links a,
+.dash_account_buttons a,
+.opac-button {
+    background: #e31900 !important;
+    border: none !important;
+}
+
+.opac-multiline-button > a:hover,
+.results_header_btns a:hover,
+#simple-detail-view-links a:hover,
+.dash_account_buttons a:hover,
+.opac-button:hover {
+    background: #75a535 !important;
+    border: none !important;
+}
+
+
 
 
 
