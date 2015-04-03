@@ -4,7 +4,7 @@
     INCLUDE "opac/parts/topnav.tt2";
     ctx.page_title = l("Temporary List Warning") %]
     [% INCLUDE "opac/parts/searchbar.tt2" %]
-    <div id="content-wrapper">
+    <div id="content-wrapper"[% IF ctx.physical_dept == 'ys'; ' class="ys"'; END %]>
         <div id="main-content">
              <p class="big-strong">[% l('You are adding to a temporary list.') %]
                 [% IF ctx.user ;

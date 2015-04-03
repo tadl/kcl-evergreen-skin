@@ -47,7 +47,7 @@ END;
 
 %]
 
-<div id="content-wrapper">
+<div id="content-wrapper"[% IF ctx.physical_dept == 'ys'; ' class="ys"'; END %]>
     <div id="main-content-register">
         <div class="common-full-pad"></div>
         <h1>[% l('Request a Library Card')%]</h1>

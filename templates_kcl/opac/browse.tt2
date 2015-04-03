@@ -23,7 +23,7 @@
             <span class="browse_the_catalog_lbl mobile_hide">[% l('Browse the Catalog') %]</span>
         </div>
     </div>
-    <div id="content-wrapper">
+    <div id="content-wrapper"[% IF ctx.physical_dept == 'ys'; ' class="ys"'; END %]>
         <div id="main-content">
             <div id="browse-the-catalog">
                 <div id="browse-controls" class='searchbar'>

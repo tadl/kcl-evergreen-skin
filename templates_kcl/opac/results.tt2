@@ -62,7 +62,7 @@
         </div>
     </div>
     </form>
-    <div id="content-wrapper">
+    <div id="content-wrapper"[% IF ctx.physical_dept == 'ys'; ' class="ys"'; END %]>
         <div id="main-content">
             <div id="results-page">
                 [% path = "opac/parts/result/" _
