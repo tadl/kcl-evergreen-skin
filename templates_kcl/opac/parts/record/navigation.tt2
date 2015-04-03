@@ -1,5 +1,5 @@
 [% IF ctx.search_result_index >= 0 %]
-<div class="rdetail_header"[% IF ctx.physical_dept == 'ys'; ' class="ys"'; END %]>
+<div class="rdetail_header[% IF ctx.physical_dept == 'ys'; ' ys'; END %]">
     <span class="rdetail_results">
         <a href='[% mkurl(ctx.opac_root _ '/results', {}, stop_parms); %]'>[% l('&#9668; Search Results') %]</a>
         <span class="rdetail_result_count">
