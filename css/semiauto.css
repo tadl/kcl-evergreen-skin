@@ -160,6 +160,7 @@ div#rdetail_actions_div.ys > .toggle_list {
     margin-left:0;
 }
 
+.rdetail_additional_md.ys,
 #copy_hold_counts.ys,
 #rdetail_summary_header.ys {
     background: rgba(255,255,255,0.5);
