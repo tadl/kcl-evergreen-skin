@@ -112,7 +112,7 @@ div#rdetail_actions_div.ys {
 }
 
 #results_header_bar.ys {
-    background: rgba(255,119,0,0.5); /* actually not this color */
+    background: rgba(255,137,0,0.8) !important;
 }
 
 .results_header_lbl.ys {
