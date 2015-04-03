@@ -89,6 +89,10 @@ body.ys {
 div#rdetail_actions_div.ys {
     background: none transparent;
 }
+div#rdetail_actions_div.ys > .place_hold,
+div#rdetail_actions_div.ys > .toggle_list {
+    border: none;
+}
 
 #footer-wrap.ys {
     background: rgba(0,0,0,0.8);
