@@ -112,7 +112,15 @@ div#rdetail_actions_div.ys {
 }
 
 #results_header_bar.ys {
-    background: rgba(255,137,0,0.8) !important;
+    background: rgba(255,137,0,0.8);
+}
+
+#result_metadata.ys {
+    background: rgba(255,255,255,0.5);
+    border-radius: 4px;
+    -moz-border-radius: 4px;
+    -webkit-border-radius: 4px;
+    padding: 5px;
 }
 
 .results_header_lbl.ys {
