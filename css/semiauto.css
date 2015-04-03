@@ -160,10 +160,13 @@ div#rdetail_actions_div.ys > .toggle_list {
     margin-left:0;
 }
 
-#rdetail_title_div.ys {
+#copy_hold_counts.ys,
+#rdetail_summary_header.ys {
     background: rgba(255,255,255,0.5);
     padding: 10px;
 }
+
+
 
 
 
