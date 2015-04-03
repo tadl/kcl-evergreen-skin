@@ -125,6 +125,7 @@ div#rdetail_actions_div.ys {
 
 .results_header_lbl.ys {
     background: none transparent;
+    border: none;
     color: #fff;
 }
 
