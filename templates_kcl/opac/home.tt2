@@ -3,11 +3,6 @@
     INCLUDE "opac/parts/topnav.tt2";
     ctx.page_title = l("Home") %]
     [% INCLUDE "opac/parts/searchbar.tt2" %]
-    [% IF ctx.physical_dept == 'ys' %]
-        <div class="home-carousel">
-            <div style="width:80%;height:400px;border:1px solid black;">&nbsp;</div><!-- placeholder for iframe -->
-        </div>
-    [%- END -%]
     <div id="content-wrapper"[% IF ctx.physical_dept == 'ys'; ' class="ys"'; END %]>
         <div id="main-content-home">
             <div class="common-full-pad"></div>
