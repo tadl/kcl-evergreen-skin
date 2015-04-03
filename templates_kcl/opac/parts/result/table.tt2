@@ -22,7 +22,7 @@
 <div id="result_table_div">
     <div class="facet_sidebar_hidden" id="facet_sidebar">
         <div>
-            <a href="http://elibrary.mel.org/search/a?searchtype=X&amp;searcharg=[% CGI.param('query') | uri | html %]&amp;SORT=D" style="padding:1;"><img src="/images/tadl/button-search-melcat.png" style="width:100px;" alt="Search MeLCat!" /></a>
+            <a href="http://elibrary.mel.org/search/a?searchtype=X&amp;searcharg=[% CGI.param('query') | uri | html %]&amp;SORT=D" style="padding:1;"><img src="/images/tadl/button-search-melcat.png" style="width:200px;" alt="Search MeLCat!" /></a>
         </div>
     [% INCLUDE "opac/parts/staff_saved_searches.tt2" %]
     [% INCLUDE 'opac/parts/result/facets.tt2' %]
