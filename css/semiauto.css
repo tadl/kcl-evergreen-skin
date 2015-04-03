@@ -115,7 +115,7 @@ div#rdetail_actions_div.ys {
     background: rgba(255,137,0,0.8);
 }
 
-#result_metadata.ys {
+#content-wrapper.ys > #result_metadata {
     background: rgba(255,255,255,0.5);
     border-radius: 4px;
     -moz-border-radius: 4px;
