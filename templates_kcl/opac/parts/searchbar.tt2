@@ -91,9 +91,7 @@
     <div class="clear-both"></div>
     [% IF ctx.physical_dept == 'ys' AND ctx.page == 'home' %]
         <div id="home-carousel">
-            <div style="width:80%;height:300px;border:1px solid black;margin:10px auto;">
-                placeholder for iframe 
-            </div><!-- placeholder for iframe -->
+            <iframe style="width:80%;height:300px;border:none;margin:10px auto;" src="https://www.kalkaskalibrary.org/youth-opac-slider/"></iframe>
         </div>
     [%- END -%]
 
