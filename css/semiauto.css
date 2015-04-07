@@ -135,7 +135,7 @@ div#rdetail_actions_div.ys > .toggle_list {
 .ys .opac-button {
     background: #0095c8 !important;
     border: none !important;
-    padding: 5px 10px;
+    padding: 10px 15px;
 }
 
 .ys .opac-multiline-button > a:hover,
@@ -145,6 +145,7 @@ div#rdetail_actions_div.ys > .toggle_list {
 .ys .opac-button:hover {
     background: #75a535 !important;
     border: none !important;
+    padding: 10px 15px;
 }
 
 .facet_box_temp.ys div.header {
