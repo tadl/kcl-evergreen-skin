@@ -179,7 +179,18 @@ div#rdetail_actions_div.ys > .toggle_list {
     background: rgba(255,137,0,0.8);
 }
 
+.ys .header_middle {
+    color: #000;
+}
 
+.ys #adv_search_tabs a,
+.ys #acct_tabs a,
+.ys #acct_fines_tabs a,
+.ys #acct_checked_tabs a,
+.ys #acct_holds_tabs a,
+.ys #acct_prefs_tabs a {
+    background: #0095c8;
+}
 
 /* search box stuff */
 #search_box { font-size:1.6em; }
