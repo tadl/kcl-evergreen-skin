@@ -173,7 +173,11 @@ div#rdetail_actions_div.ys > .toggle_list {
     margin:10px auto;
 }
 
-
+.ys #fines_payments_wrapper,
+.ys #myopac_tabs,
+.ys #adv_search_parent {
+    background: rgba(255,137,0,0.8);
+}
 
 
 
