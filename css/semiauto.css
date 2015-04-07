@@ -135,7 +135,7 @@ div#rdetail_actions_div.ys > .toggle_list {
 .ys .opac-button {
     background: #0095c8 !important;
     border: none !important;
-    padding: 0.8em;
+    padding: 5px 10px;
 }
 
 .ys .opac-multiline-button > a:hover,
