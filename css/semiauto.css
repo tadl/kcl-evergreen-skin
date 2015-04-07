@@ -192,6 +192,18 @@ div#rdetail_actions_div.ys > .toggle_list {
     background: #0095c8;
 }
 
+.ys #adv_search_tabs a:hover,
+.ys #acct_tabs a:hover,
+.ys #acct_fines_tabs a:hover,
+.ys #acct_checked_tabs a:hover,
+.ys #acct_holds_tabs a:hover,
+.ys #acct_prefs_tabs a:hover {
+    background: #75a535;
+}
+
+
+
+
 /* search box stuff */
 #search_box { font-size:1.6em; }
 .search_box_wrapper { position:relative; }
