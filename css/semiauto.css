@@ -128,20 +128,20 @@ div#rdetail_actions_div.ys > .toggle_list {
     color: #fff;
 }
 
-.opac-multiline-button > a,
-.results_header_btns a,
-#simple-detail-view-links a,
-.dash_account_buttons a,
-.opac-button {
+body.ys > .opac-multiline-button > a,
+body.ys > .results_header_btns a,
+body.ys > #simple-detail-view-links a,
+body.ys > .dash_account_buttons a,
+body.ys > .opac-button {
     background: #e31900 !important;
     border: none !important;
 }
 
-.opac-multiline-button > a:hover,
-.results_header_btns a:hover,
-#simple-detail-view-links a:hover,
-.dash_account_buttons a:hover,
-.opac-button:hover {
+body.ys > .opac-multiline-button > a:hover,
+body.ys > .results_header_btns a:hover,
+body.ys > #simple-detail-view-links a:hover,
+body.ys > .dash_account_buttons a:hover,
+body.ys > .opac-button:hover {
     background: #75a535 !important;
     border: none !important;
 }
