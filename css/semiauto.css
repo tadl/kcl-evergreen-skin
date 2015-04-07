@@ -201,7 +201,7 @@ div#rdetail_actions_div.ys > .toggle_list {
     background: #75a535;
 }
 
-.ys .login_boxes {
+.ys #main-content .login_boxes {
     background: rgba(255,255,255,0.6);
 }
 
