@@ -41,6 +41,17 @@
                 <a href="[% mkurl(ctx.opac_root _ '/logout', {}, 1) %]"
                     class="opac-button" id="logout_link">[% l('Logout') %]</a>
                 </span>
+                [% IF ctx.physical_dept == 'ys' -%]
+                    <a href="[% mkurl(ctx.opac_root _ '/home', {physical_dept => 'default'}) %]"
+                        class="opac-button opac-button-header" id="home_theme_link"><span>
+                        [% l('Full Catalog') %]
+                    </span></a>
+                [% ELSE %]
+                    <a href="[% mkurl(ctx.opac_root _ '/home', {physical_dept => 'ys'}) %]"
+                        class="opac-button opac-button-header" id="home_theme_link"><span>
+                        [% l('Kids\' Catalog') %]
+                    </span></a>
+                [% END %]
             </div>
             <div id="dashboard"[% IF ctx.physical_dept == 'ys'; ' class="ys"'; END %]>
                 <span class="dash-align">
