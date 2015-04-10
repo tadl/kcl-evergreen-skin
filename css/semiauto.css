@@ -70,7 +70,7 @@ body.ys {
 
 #dashboard.ys,
 #dash_identity.ys {
-    background-color: rgba(255,137,0,0.8);
+    background-color: rgba(120,190,32,0.8);
 }
 
 #header.ys {
@@ -111,7 +111,7 @@ div#rdetail_actions_div.ys > .toggle_list {
 }
 
 #results_header_bar.ys {
-    background: rgba(255,137,0,0.8);
+    background: rgba(120,190,32,0.8);
 }
 
 .result_metadata.ys {
@@ -149,14 +149,14 @@ div#rdetail_actions_div.ys > .toggle_list {
 }
 
 .facet_box_temp.ys div.header {
-    background: rgba(255,137,0,0.8);
+    background: rgba(120,190,32,0.8);
 }
 .facet_box_temp.ys div.box_wrapper {
     background: rgba(255,255,255,0.6);
 }
 
 .rdetail_header.ys {
-    background: rgba(255,137,0,0.8);
+    background: rgba(120,190,32,0.8);
     border: none;
     padding: 10px;
     margin-left:0;
@@ -178,7 +178,7 @@ div#rdetail_actions_div.ys > .toggle_list {
 .ys #fines_payments_wrapper,
 .ys #myopac_tabs,
 .ys #adv_search_parent {
-    background: rgba(255,137,0,0.8);
+    background: rgba(120,190,32,0.8);
 }
 
 .ys .header_middle {
