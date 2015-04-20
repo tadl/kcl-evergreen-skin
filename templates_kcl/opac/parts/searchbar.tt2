@@ -19,7 +19,7 @@
             <input type="text" id="search_box" name="query" aria-label="[%
                     l('Enter search query:');
                 %]" value="[% is_advanced ? ctx.naive_query_scrub(ctx.processed_search_query) : CGI.param('query') | html %]"
-                [%- IF use_autosuggest.enabled == "t" %]
+                [%- IF use_autosuggest.enabled == "t" AND ctx.physical_dept != "ys" %]
                 dojoType="openils.widget.AutoSuggest" type_selector="'qtype'"
                 submitter="this.textbox.form.submit();"
                 [%-     IF use_autosuggest.value.search('opac_visible') %]
