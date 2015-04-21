@@ -146,9 +146,9 @@ search.default_qtypes = ['keyword','title','author'];
 # none_label is the label for the default nothing selected entry.
 
 search.basic_config = {
-    type => 'attr',
-    group => ['mattype','item_type'],
-    none_label => l("All Formats"),
+    type => 'filter',
+    group => ['kcl_main'],
+    none_label => l("All Materials"),
 };
 
 ##############################################################################
