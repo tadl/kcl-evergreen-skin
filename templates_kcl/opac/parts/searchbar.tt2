@@ -44,8 +44,13 @@
                 INCLUDE "opac/parts/coded_value_selector.tt2"
                     attr=search.basic_config.group none_ok=1 none_label=search.basic_config.none_label;
             ELSIF search.basic_config.type == 'filter';
-                INCLUDE "opac/parts/filter_group_selector.tt2"
-                    filter_group=search.basic_config.group none_ok=1 none_label=search.basic_config.none_label;
+                IF ctx.physical_dept == "ys";
+                    INCLUDE "opac/parts/filter_group_selector.tt2"
+                        filter_group='kcl_youth' none_ok=0;
+                ELSE;
+                    INCLUDE "opac/parts/filter_group_selector.tt2"
+                        filter_group=search.basic_config.group none_ok=1 none_label=search.basic_config.none_label;
+                END;
             END;
         -%]
         [%-
